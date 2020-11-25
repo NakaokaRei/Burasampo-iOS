@@ -111,6 +111,7 @@
 		B144A690256D12AF004851A5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B144A6A5256D2024004851A5 /* URLImage.swift */,
 				B144A692256D12C9004851A5 /* LoginView.swift */,
 				B144A699256D15AA004851A5 /* HomeView.swift */,
 				B144A6A1256D1873004851A5 /* RowView.swift */,
@@ -138,7 +139,6 @@
 		B144A6A4256D200D004851A5 /* Function */ = {
 			isa = PBXGroup;
 			children = (
-				B144A6A5256D2024004851A5 /* URLImage.swift */,
 				B144A6A9256D2051004851A5 /* ImageDownloader.swift */,
 			);
 			path = Function;
