@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		796029811E746271B1E140C8 /* Pods_Burasampo_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E956F26FB0B43BD2817BC0 /* Pods_Burasampo_iOS.framework */; };
+		B144A66A256CFD5F004851A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144A669256CFD5F004851A5 /* AppDelegate.swift */; };
+		B144A66C256CFD5F004851A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144A66B256CFD5F004851A5 /* SceneDelegate.swift */; };
+		B144A670256CFD60004851A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B144A66F256CFD60004851A5 /* Assets.xcassets */; };
+		B144A673256CFD60004851A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B144A672256CFD60004851A5 /* Preview Assets.xcassets */; };
+		B144A676256CFD60004851A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B144A674256CFD60004851A5 /* LaunchScreen.storyboard */; };
+		B144A682256CFE2F004851A5 /* BuraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144A681256CFE2F004851A5 /* BuraViewModel.swift */; };
+		B144A686256D0656004851A5 /* responseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144A685256D0656004851A5 /* responseModel.swift */; };
+		B144A693256D12C9004851A5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144A692256D12C9004851A5 /* LoginView.swift */; };
+		B144A69A256D15AA004851A5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144A699256D15AA004851A5 /* HomeView.swift */; };
+		B144A6A2256D1873004851A5 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144A6A1256D1873004851A5 /* RowView.swift */; };
+		B144A6A6256D2024004851A5 /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144A6A5256D2024004851A5 /* URLImage.swift */; };
+		B144A6AA256D2051004851A5 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144A6A9256D2051004851A5 /* ImageDownloader.swift */; };
+		B144A6AD256D24B9004851A5 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B144A6AC256D24B9004851A5 /* MapView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F83973CD1FBB3A90A1D67F9 /* Pods-Burasampo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burasampo-iOS.release.xcconfig"; path = "Target Support Files/Pods-Burasampo-iOS/Pods-Burasampo-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		B144A666256CFD5F004851A5 /* Burasampo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Burasampo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B144A669256CFD5F004851A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B144A66B256CFD5F004851A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B144A66F256CFD60004851A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B144A672256CFD60004851A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B144A675256CFD60004851A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B144A677256CFD61004851A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B144A681256CFE2F004851A5 /* BuraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuraViewModel.swift; sourceTree = "<group>"; };
+		B144A685256D0656004851A5 /* responseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = responseModel.swift; sourceTree = "<group>"; };
+		B144A692256D12C9004851A5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B144A699256D15AA004851A5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B144A6A1256D1873004851A5 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		B144A6A5256D2024004851A5 /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		B144A6A9256D2051004851A5 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		B144A6AC256D24B9004851A5 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B8470C7DEA334C44E23DBBE4 /* Pods-Burasampo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Burasampo-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Burasampo-iOS/Pods-Burasampo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D7E956F26FB0B43BD2817BC0 /* Pods_Burasampo_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Burasampo_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B144A663256CFD5F004851A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796029811E746271B1E140C8 /* Pods_Burasampo_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39B3889307919244F4EE46B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8470C7DEA334C44E23DBBE4 /* Pods-Burasampo-iOS.debug.xcconfig */,
+				6F83973CD1FBB3A90A1D67F9 /* Pods-Burasampo-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B144A65D256CFD5F004851A5 = {
+			isa = PBXGroup;
+			children = (
+				B144A668256CFD5F004851A5 /* Burasampo-iOS */,
+				B144A667256CFD5F004851A5 /* Products */,
+				39B3889307919244F4EE46B1 /* Pods */,
+				C9FE81429B92FF852FB2D923 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B144A667256CFD5F004851A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B144A666256CFD5F004851A5 /* Burasampo-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B144A668256CFD5F004851A5 /* Burasampo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B144A6A4256D200D004851A5 /* Function */,
+				B144A697256D12DC004851A5 /* ViewModel */,
+				B144A696256D12D0004851A5 /* Model */,
+				B144A690256D12AF004851A5 /* View */,
+				B144A669256CFD5F004851A5 /* AppDelegate.swift */,
+				B144A66B256CFD5F004851A5 /* SceneDelegate.swift */,
+				B144A66F256CFD60004851A5 /* Assets.xcassets */,
+				B144A674256CFD60004851A5 /* LaunchScreen.storyboard */,
+				B144A677256CFD61004851A5 /* Info.plist */,
+				B144A671256CFD60004851A5 /* Preview Content */,
+			);
+			path = "Burasampo-iOS";
+			sourceTree = "<group>";
+		};
+		B144A671256CFD60004851A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B144A672256CFD60004851A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B144A690256D12AF004851A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B144A692256D12C9004851A5 /* LoginView.swift */,
+				B144A699256D15AA004851A5 /* HomeView.swift */,
+				B144A6A1256D1873004851A5 /* RowView.swift */,
+				B144A6AC256D24B9004851A5 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B144A696256D12D0004851A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B144A685256D0656004851A5 /* responseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B144A697256D12DC004851A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B144A681256CFE2F004851A5 /* BuraViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B144A6A4256D200D004851A5 /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				B144A6A5256D2024004851A5 /* URLImage.swift */,
+				B144A6A9256D2051004851A5 /* ImageDownloader.swift */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
+		C9FE81429B92FF852FB2D923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7E956F26FB0B43BD2817BC0 /* Pods_Burasampo_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B144A665256CFD5F004851A5 /* Burasampo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B144A67A256CFD61004851A5 /* Build configuration list for PBXNativeTarget "Burasampo-iOS" */;
+			buildPhases = (
+				BC0B84B4F9D0535267FD04CC /* [CP] Check Pods Manifest.lock */,
+				B144A662256CFD5F004851A5 /* Sources */,
+				B144A663256CFD5F004851A5 /* Frameworks */,
+				B144A664256CFD5F004851A5 /* Resources */,
+				409434498665DF87A9219437 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Burasampo-iOS";
+			productName = "Burasampo-iOS";
+			productReference = B144A666256CFD5F004851A5 /* Burasampo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B144A65E256CFD5F004851A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B144A665256CFD5F004851A5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = B144A661256CFD5F004851A5 /* Build configuration list for PBXProject "Burasampo-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B144A65D256CFD5F004851A5;
+			productRefGroup = B144A667256CFD5F004851A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B144A665256CFD5F004851A5 /* Burasampo-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B144A664256CFD5F004851A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B144A676256CFD60004851A5 /* LaunchScreen.storyboard in Resources */,
+				B144A673256CFD60004851A5 /* Preview Assets.xcassets in Resources */,
+				B144A670256CFD60004851A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		409434498665DF87A9219437 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Burasampo-iOS/Pods-Burasampo-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Burasampo-iOS/Pods-Burasampo-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Burasampo-iOS/Pods-Burasampo-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC0B84B4F9D0535267FD04CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Burasampo-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B144A662256CFD5F004851A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B144A693256D12C9004851A5 /* LoginView.swift in Sources */,
+				B144A69A256D15AA004851A5 /* HomeView.swift in Sources */,
+				B144A6A2256D1873004851A5 /* RowView.swift in Sources */,
+				B144A682256CFE2F004851A5 /* BuraViewModel.swift in Sources */,
+				B144A66A256CFD5F004851A5 /* AppDelegate.swift in Sources */,
+				B144A66C256CFD5F004851A5 /* SceneDelegate.swift in Sources */,
+				B144A686256D0656004851A5 /* responseModel.swift in Sources */,
+				B144A6AD256D24B9004851A5 /* MapView.swift in Sources */,
+				B144A6AA256D2051004851A5 /* ImageDownloader.swift in Sources */,
+				B144A6A6256D2024004851A5 /* URLImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B144A674256CFD60004851A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B144A675256CFD60004851A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B144A678256CFD61004851A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B144A679256CFD61004851A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B144A67B256CFD61004851A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8470C7DEA334C44E23DBBE4 /* Pods-Burasampo-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Burasampo-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 7ZJJ7KR6WA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Burasampo-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rei.nakaoka.Burasampo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B144A67C256CFD61004851A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F83973CD1FBB3A90A1D67F9 /* Pods-Burasampo-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Burasampo-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = 7ZJJ7KR6WA;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Burasampo-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rei.nakaoka.Burasampo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B144A661256CFD5F004851A5 /* Build configuration list for PBXProject "Burasampo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B144A678256CFD61004851A5 /* Debug */,
+				B144A679256CFD61004851A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B144A67A256CFD61004851A5 /* Build configuration list for PBXNativeTarget "Burasampo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B144A67B256CFD61004851A5 /* Debug */,
+				B144A67C256CFD61004851A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B144A65E256CFD5F004851A5 /* Project object */;
+}
